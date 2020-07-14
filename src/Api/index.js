@@ -7,7 +7,7 @@ export const fetchData = async() => {
         //best pratice
         //jika key sama datanya sama maka bisa seperti ini : 
         const {data : {confirmed,recovered,deaths,lastUpdate}} = await axios.get(url);
-        
+
         return {confirmed,recovered,deaths,lastUpdate};
 
       

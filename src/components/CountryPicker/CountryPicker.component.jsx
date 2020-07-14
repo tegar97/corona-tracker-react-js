@@ -3,7 +3,7 @@ import {NativeSelect,FormControl} from '@material-ui/core'
 
 import styles from './CountryPicker.component'
 
-import {countries} from '../../api';
+import {countries} from './../../Api';
 
 const Chart = () => {
     const {fetchcountries,setFechedCountries} = useState([])
